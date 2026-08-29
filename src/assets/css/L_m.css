@@ -1,0 +1,15 @@
+.page-category { }
+.page-title { font-size: 22px; color: #1a1a2e; margin-bottom: 16px; }
+.back-home { margin-bottom: 18px; }
+.back-home a { color: #888; font-size: 13px; transition: .3s; text-decoration: none; }
+.back-home a:hover { color: #e94560; }
+
+.filter-bar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 22px; }
+.filter-bar button { padding: 7px 20px; border: 1px solid #ddd; background: #fff; border-radius: 20px; font-size: 13px; cursor: pointer; transition: all .3s; color: #333; display: inline-flex; align-items: center; gap: 5px; }
+.filter-bar button:hover { border-color: #e94560; color: #e94560; }
+.filter-bar button.active { background: #e94560; color: #fff; border-color: #e94560; }
+.filter-icon { width: 18px; height: 18px; object-fit: contain; }
+
+.article-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.article-list .article-card-img { height: 140px; }
+.article-list .article-card-img img { max-height: 70px; }

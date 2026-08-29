@@ -1,0 +1,40 @@
+a { transition: color .3s; }
+.app-header .logo:hover .logo-text { color: #e94560; transition: .3s; }
+.nav-list a { transition: color .3s, background .3s; }
+.article-card { text-decoration: none; color: inherit; }
+.article-card:hover h4 { color: #e94560; transition: .3s; }
+.category-chip { transition: all .3s; }
+.detail-nav a { transition: all .3s; }
+.app-footer a { color: #aaa; text-decoration: none; }
+.app-footer a:hover { color: #fff; }
+.back-home a { transition: color .3s; }
+
+@media (max-width: 768px) {
+  .nav-list { flex-wrap: wrap; }
+  .nav-list a { padding: 10px 16px; font-size: 13px; }
+  .card-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .article-list { grid-template-columns: 1fr; }
+  .banner { height: 200px; }
+  .banner-slide { flex-direction: column; gap: 16px; padding: 20px; }
+  .banner-img { width: 100px; height: 100px; }
+  .banner-text { text-align: center; }
+  .banner-text h2 { font-size: 20px; }
+  .banner-text p { font-size: 13px; }
+  .article-body { padding: 18px; }
+  .register-form { padding: 20px; }
+  .profile-card { flex-direction: column; text-align: center; }
+  .profile-avatar-img { width: 56px; height: 56px; }
+  .user-card { flex-direction: column; text-align: center; }
+  .user-stats { justify-content: center; }
+  .section-header { flex-direction: column; gap: 4px; text-align: center; }
+  .category-grid { justify-content: center; }
+  .about-tech-img { max-height: 130px; }
+  .about-decoration img { max-height: 140px; }
+}
+@media (max-width: 480px) {
+  .card-grid { grid-template-columns: 1fr; }
+  .logo-text { font-size: 18px; }
+  .banner { height: 180px; }
+  .banner-img { width: 70px; height: 70px; }
+  .banner-text h2 { font-size: 16px; }
+}

@@ -1,0 +1,19 @@
+.page-register { max-width: 480px; margin: 0 auto; }
+.page-title { font-size: 22px; color: #1a1a2e; margin-bottom: 16px; }
+.back-home { margin-bottom: 18px; }
+.back-home a { color: #888; font-size: 13px; transition: .3s; text-decoration: none; }
+.back-home a:hover { color: #e94560; }
+
+.register-form { background: #fff; border-radius: 10px; padding: 30px; box-shadow: 0 2px 12px rgba(0,0,0,.06); }
+.form-group { margin-bottom: 18px; }
+.form-group label { display: block; font-size: 13px; color: #555; margin-bottom: 5px; font-weight: 500; }
+.form-group input, .form-group textarea { width: 100%; padding: 10px 14px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; transition: border-color .3s, box-shadow .3s; outline: none; font-family: inherit; }
+.form-group input:focus, .form-group textarea:focus { border-color: #0f3460; box-shadow: 0 0 0 3px rgba(15,52,96,.08); }
+.form-group input.error { border-color: #e94560; }
+.form-group textarea { height: 80px; resize: vertical; }
+.form-error { display: block; color: #e94560; font-size: 12px; margin-top: 4px; }
+
+.btn-submit { width: 100%; padding: 12px; background: #e94560; color: #fff; border: none; border-radius: 6px; font-size: 15px; cursor: pointer; transition: background .3s; letter-spacing: 2px; }
+.btn-submit:hover { background: #d63850; }
+
+.form-tip { text-align: center; margin-top: 14px; font-size: 13px; color: #e94560; }

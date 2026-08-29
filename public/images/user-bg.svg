@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+  <defs>
+    <linearGradient id="ubg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5b4cdb"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="200" fill="url(#ubg)" rx="12"/>
+  <circle cx="450" cy="50" r="100" fill="white" opacity="0.05"/>
+  <circle cx="550" cy="150" r="80" fill="white" opacity="0.05"/>
+  <circle cx="100" cy="30" r="40" fill="white" opacity="0.05"/>
+  <text x="260" y="110" font-family="Arial,sans-serif" font-weight="700" font-size="28" fill="white" text-anchor="middle">个人中心</text>
+  <text x="260" y="145" font-family="Arial,sans-serif" font-weight="300" font-size="16" fill="white" opacity="0.7" text-anchor="middle">AI 智能体技术博客</text>
+</svg>

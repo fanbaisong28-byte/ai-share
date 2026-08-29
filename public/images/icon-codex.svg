@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="20" fill="#5b4cdb" opacity="0.1"/>
+  <text x="22" y="62" font-family="Arial,sans-serif" font-weight="800" font-size="32" fill="#5b4cdb">&lt;/&gt;</text>
+  <text x="16" y="90" font-family="Arial,sans-serif" font-weight="600" font-size="12" fill="#5b4cdb">Codex</text>
+</svg>

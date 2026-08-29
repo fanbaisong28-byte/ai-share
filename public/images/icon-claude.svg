@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="20" fill="#059669" opacity="0.1"/>
+  <!-- Claude Code icon -->
+  <rect x="30" y="25" width="40" height="50" rx="6" fill="none" stroke="#059669" stroke-width="3"/>
+  <text x="35" y="55" font-family="Arial,sans-serif" font-weight="700" font-size="18" fill="#059669">CC</text>
+  <text x="16" y="90" font-family="Arial,sans-serif" font-weight="600" font-size="11" fill="#059669">Claude</text>
+</svg>
